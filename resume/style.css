@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
 
-#navigationbar {text-align: right;}
 h1 {text-align: center; color: Coral; font-family: 'Give You Glory', cursive; font-size: 80px;}
 h2 {text-align: center;}
-
+h3 {text-align: center;
+h4 {text-align: center;}
 
 img{
   width:100%;
