@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
 
 #navigationbar {text-align: right;}
-h1 {text-align: center; color: Coral; font-family: 'Give You Glory', cursive; font-size: 80px;}
-
-
+h1 {text-align: center; color: DarkGreen; font-family: 'Give You Glory', cursive; font-size: 80px;}
+h2 {text-align: center;}
+h3 {text-align: center;}
 
 img{
   width:100%;
@@ -17,7 +17,7 @@ img{
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #0000EE;
 }
 
 /* Custom default button */
@@ -75,22 +75,28 @@ body {
 
 .masthead-nav > li {
   display: inline-block;
+  background-color: white;
 }
 .masthead-nav > li + li {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 2px;
   font-size: 16px;
   font-weight: bold;
   color: black; /* IE8 proofing */
   color: black;
   border-bottom: 2px solid transparent;
+  background-color: white;
+}
+
+nav {
+  background-color: white;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-  background-color: transparent;
+  background-color: white;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
